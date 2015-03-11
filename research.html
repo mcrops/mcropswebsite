@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mcrops, Makerere University</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .logo-header {
+        margin: 10px 0 20px 0;
+       }
+
+      .logo-header h3 {
+        margin: 13px 0 17px 0;
+       }
+
+      .header-block-left {
+       float: left;
+      }
+
+      .header-block-right {
+       float: right;
+       text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container well">
+      <div class="logo-header">
+        <div class="header-block-left">
+         <img src="images/logo.png"  height="45" width="100"><br>
+         <h3>Automated mobile survey technology and spatial modeling of viral cassava diseases<h3>
+        </div>
+        <div class="header-block-right">
+         <a href="http://www.mak.ac.ug"><img src="images/makerere.png" height="72px"></a><br>
+         <p>Makerere University, Uganda</p>
+       </div>
+
+      </div>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default" style="clear:both">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--a class="navbar-brand" href="#">Project name</a-->
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="research.html">Research</a></li>
+              <!--<li><a href="publications.html">Publications</a></li> -->
+              <li><a href="seminars.html">Seminars</a></li>
+              <li><a href="people.html">People</a></li>
+              <li><a href="http://mcropspost.blogspot.com/">Blog</a></li>
+               <li><a href="https://www.youtube.com/watch?v=XsfHIlC0cBA">YouTube</a></li>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+      
+    </div> <!-- /container -->
+
+<div class="container">
+    <!--<a class="navbar-brand" href="index.html"><%= image_tag("leaf.png", :size => "250x250") %></a> -->
+
+    <div class="row">
+      
+      <!-- Article main content -->
+      <article class="col-sm-8 maincontent">
+        <header class="page-header">
+          <h1 class="page-title">Project Implementation</h1>
+        </header>
+        
+
+        <h3>
+          <font color="#007700">MOBILE DATA COLLECTION IN THE FIELD</font>
+
+        </h3>
+
+        <h2 class="thin"><img src="images/odk.png" alt="Disease mapping">
+                    </h2>
+                        <p align="justify" class="text-muted">
+                      We use a customised version of the open data kit (screenshots above) to carry out data collection with phones. With this we can collect image and location data, and if an expert is performing the survey they can optionally provide a diagnosis which helps to calibrate our automated system.
+                        </p>
+
+              <a class="navbar-brand" href="index.html"></a>
+
+
+        <h3>
+           <font color="#007700">OUR TEAM IN THE FIELD</font>
+        </h3>
+
+        <h2 class="thin"><img src="images/datacollection.png" height="300" width="700" alt="Disease mapping">
+                    </h2>
+                        <p align="justify" class="text-muted">
+                       Here is our team using a Tecno H6 to capture images from a plantation in the Namulonge crop resource research institute, with staff from the institute. Where the experts are present, they give us a diagnosis of the health of the plant to accompany the image and position data. This information is uploaded by the phone to the app engine, and displayed immediately on the map on the home page. (For remote areas with limited network coverage, we can also cache the data on the phone and upload in bulk once network is available).
+                        </p>
+
+
+          <h3>
+           <font color="#007700">MAPPING THE DISEASE SPREAD</font></h3>
+           <a class="navbar-brand" href="index.html"></a>
+
+
+        <h2 class="thin"><img src="images/diseasecontour.png" alt="Disease mapping">
+                    </h2>
+                        <p align="justify" class="text-muted">
+                       On the left we have 13 example plants, with their disease levels shown in the dark boxes. The contour lines indicate our calculation of the mean disease level. The histograms on the right show our predictions at what the distribution of the five disease levels will be at positions A, B and C. Based on this model, we can use our uncertainty at different places on the map to dynamically change the survey schedule (divert the survey teams to the most informative areas) and to update prices for data collection by extension workers (increase prices for areas where data is more useful). Ultimately such maps are used to plan the way in which limited resources can best be used to limit the spread of disease, for example by starting training programs for farmers in high risk areas, or calculating the best places to take healthy planting material to replace the crops in the most affected areas.
+                        </p>
+
+         <h3>
+                    <font color="#007700">Diagnosis of crop disease in fields based on crop images</font>
+          </h3>
+               <a class="navbar-brand" href="index.html"></a>
+
+
+            <h2 class="thin"><img src="images/AutomatedDiagnosis.png" alt="Disease mapping">
+                    </h2>
+                        <p  align="justify" class="text-muted ">
+                       We will develop applications for the mobile phone that an extension worker or farmer can use to diagnose cassava viral disease in the field. The application will use techniques from machine learning to analyze crop images and diagnose the disease as well as its severity
+                        </p>
+
+
+        
+        <h3>
+                <font color="#007700">SPECTROMETRY MOBILE PHONE add-ons</font>
+        </h3>
+           <a class="navbar-brand" href="index.html"></a>
+
+
+        <h2 class="thin"><img src="images/spectralRepresentations.png" alt="Disease mapping">
+                    </h2>
+                        <p align="justify" class="text-muted ">
+                       We will investigate the development of a low-cost portable spectral imaging device that can be appended to a phone and used for two purposes: first, early detection of diseases in plants where symptoms are not visible to the naked eye and second, inspection of planting materials to determine if they are disease-free. There has been a growing set of examples of diseases which can be detected early through the use of spectrometry and hyperspectral imaging for crops such as rice, wheat, citrus and tomato (Sankaran et al, 2010). Laser-induced fluorescence spectrometry, for example, has been shown to be an effective method for early-onset and non-destructive disease detection. Two types of fluorescence are produced by green leaves: (i) blue-green fluorescence in about the 400–600 nm range, and (ii) chlorophyll fluorescence in about the 650–800 nm range. Spectroscopic analysis of these can be utilized to identify signatures corresponding to particular diseases, as well as identifying nutrient deficiencies, and stresses from environmental conditions.
+                        </p>
+
+
+
+
+
+
+          <h3>
+                       <font color="#007700">SPATIO TEMPORAL MODELING</font>
+          </h3>
+
+           <a class="navbar-brand" href="index.html"></a>
+
+
+        <h2 class="thin"><img src="images/spatialTemporalModelling.jpg" alt="Disease mapping">
+                    </h2>
+                        <p align="justify" class="text-muted">
+                       One of the advantages of the mobile survey technology is the potential it brings to increase the frequency and spatial extent of sampling for disease and vectors. With the large quantity of observations to be obtained in this work, and consequent statistical modeling opportunity, we expect the study to yield a set of unique datasets giving insight into the spread of crop disease.
+                        </p>
+                
+      </article>
+      <!-- /Article -->
+      
+      <!-- Sidebar -->
+      <aside class="col-sm-4 sidebar sidebar-right">
+
+        <div class="widget">
+          
+        </div>
+
+      </aside>
+      <!-- /Sidebar -->
+
+    </div>
+  </div>  <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
